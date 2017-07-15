@@ -50,9 +50,16 @@
   <ItemGroup>
     <Compile Include="Core\Domain\Author.cs" />
     <Compile Include="Core\Domain\Billing.cs" />
+    <Compile Include="Core\Domain\Branch.cs" />
     <Compile Include="Core\Domain\Doctor.cs" />
+    <Compile Include="Core\Domain\Appointments.cs" />
     <Compile Include="Core\Domain\DoctorAvaliablity.cs" />
+    <Compile Include="Core\Domain\Hospital.cs" />
+    <Compile Include="Core\Domain\HospitalBranch.cs" />
     <Compile Include="Core\Domain\Patient.cs" />
+    <Compile Include="Core\Domain\PatientTests.cs" />
+    <Compile Include="Core\Domain\PatientVisits.cs" />
+    <Compile Include="Core\Domain\Tests.cs" />
     <Compile Include="Persistence\Repositories\AuthorRepository.cs" />
     <Compile Include="Core\Domain\Course.cs" />
     <Compile Include="Persistence\Repositories\CourseRepository.cs" />
