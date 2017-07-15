@@ -1,0 +1,60 @@
+﻿body{
+    margin:0;
+    padding:0;
+    font-family:'Segoe UI';
+}
+.Container{
+    width:1200px;
+    margin:0 auto;
+}
+header,footer{
+       height: 60px;
+    background: #f0f0f0;
+    padding: 10px 0;
+}
+.SiteLogo {
+    background: url(../Images/Logo.png) no-repeat;
+    width: 300px;
+    height: 60px;
+    float: left;
+    background-size: 100% 100%;
+}
+.SiteHeader{
+        float: left;
+    font-size: 35px;
+    margin-left: 20px;
+}
+.Content{
+    min-height:600px;
+}
+.SelUserView{
+    height:350px;
+    width:400px;
+    margin:20px auto 0;
+}
+.ViewHeader{
+    background-color:red;
+    height:30px;
+    color:white;
+    font-weight:500;
+    padding:10px;
+}
+.ViewContent{
+    height:300px;
+    background:#f0f0f0;
+    padding:50px;
+    box-sizing:border-box;
+}
+.ViewBtn{
+    height:75px;
+    background:#3f3f3f;
+    border:1px solid #3e3e3e;
+    text-align:center;
+    color:white;
+    padding:20px;
+    box-sizing:border-box;
+    cursor:pointer;
+}
+.ViewBtn:nth-child(2){
+    margin-top:30px;
+}
