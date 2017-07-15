@@ -178,3 +178,5 @@ C:\Hackathon\HealthCareManagement\WebAPI\bin\System.Web.Http.Owin.xml
 C:\Hackathon\HealthCareManagement\WebAPI\obj\Debug\WebAPI.csprojResolveAssemblyReference.cache
 C:\Hackathon\HealthCareManagement\WebAPI\obj\Debug\WebAPI.dll
 C:\Hackathon\HealthCareManagement\WebAPI\obj\Debug\WebAPI.pdb
+C:\Users\admin\Documents\Visual Studio 2015\Projects\HealthCareManagement\WebAPI\bin\Queries.exe
+C:\Users\admin\Documents\Visual Studio 2015\Projects\HealthCareManagement\WebAPI\bin\Queries.pdb
