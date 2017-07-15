@@ -9,6 +9,9 @@ namespace Queries.Core.Domain
     public class DoctorAvaliablity
     {
         public Doctor Doctor { get; set; }
-        public int MyProperty { get; set; }
+        public string AvalibleDays { get; set; }
+        public string StartTime { get; set; }
+        public string EndTime { get; set; }
+        public string LeavePlan { get; set; }
     }
 }
