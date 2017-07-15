@@ -13,7 +13,7 @@ namespace Queries.Persistence.Repositories
 
         public Author GetAuthorWithCourses(int id)
         {
-            return HCMContext.Authors.Include(a => a.Courses).SingleOrDefault(a => a.Id == id);
+            return HCMContext.Authors.SingleOrDefault(a => a.Id == id);
         }
 
         public HCMContext HCMContext

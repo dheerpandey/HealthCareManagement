@@ -11,12 +11,10 @@ namespace Queries.Persistence
         public UnitOfWork(HCMContext context)
         {
             _context = context;
-            Courses = new CourseRepository(_context);
-            Authors = new AuthorRepository(_context);
+            Appointments = new AppointmentRepository(_context);
         }
 
-        public ICourseRepository Courses { get; private set; }
-        public IAuthorRepository Authors { get; private set; }
+        public IAppointmentRepository Appointments { get; private set; }
 
         public int Complete()
         {

@@ -9,7 +9,6 @@ namespace Queries.Core.Domain
     public class PatientTests
     {
         public Patient Patient { get; set; }
-        public Tests Test { get; set; }
         public Doctor Doctor { get; set; }
     }
 }
