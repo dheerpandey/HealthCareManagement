@@ -7,18 +7,18 @@ namespace Queries.Persistence.Repositories
 {
     public class AuthorRepository : Repository<Author>, IAuthorRepository
     {
-        public AuthorRepository(PlutoContext context) : base(context)
+        public AuthorRepository(HCMContext context) : base(context)
         {
         }
 
         public Author GetAuthorWithCourses(int id)
         {
-            return PlutoContext.Authors.Include(a => a.Courses).SingleOrDefault(a => a.Id == id);
+            return HCMContext.Authors.Include(a => a.Courses).SingleOrDefault(a => a.Id == id);
         }
 
-        public PlutoContext PlutoContext
+        public HCMContext HCMContext
         {
-            get { return Context as PlutoContext; }
+            get { return Context as HCMContext; }
         }
     }
 }

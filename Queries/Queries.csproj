@@ -50,6 +50,10 @@
   <ItemGroup>
     <Compile Include="Core\Domain\Author.cs" />
     <Compile Include="Core\Domain\Patient.cs" />
+    <Compile Include="Migrations\201707150653319_InitialScript.cs" />
+    <Compile Include="Migrations\201707150653319_InitialScript.Designer.cs">
+      <DependentUpon>201707150653319_InitialScript.cs</DependentUpon>
+    </Compile>
     <Compile Include="Persistence\Repositories\AuthorRepository.cs" />
     <Compile Include="Core\Domain\Course.cs" />
     <Compile Include="Persistence\Repositories\CourseRepository.cs" />
@@ -59,12 +63,8 @@
     <Compile Include="Core\Repositories\ICourseRepository.cs" />
     <Compile Include="Core\Repositories\IRepository.cs" />
     <Compile Include="Core\IUnitOfWork.cs" />
-    <Compile Include="Migrations\201510010029257_InitialMigration.cs" />
-    <Compile Include="Migrations\201510010029257_InitialMigration.Designer.cs">
-      <DependentUpon>201510010029257_InitialMigration.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
-    <Compile Include="Persistence\PlutoContext.cs" />
+    <Compile Include="Persistence\HCMContext.cs" />
     <Compile Include="Program.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -78,8 +78,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201510010029257_InitialMigration.resx">
-      <DependentUpon>201510010029257_InitialMigration.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201707150653319_InitialScript.resx">
+      <DependentUpon>201707150653319_InitialScript.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

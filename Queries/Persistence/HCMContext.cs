@@ -4,10 +4,10 @@ using System.Data.Entity;
 
 namespace Queries.Persistence
 {
-    public class PlutoContext : DbContext
+    public class HCMContext : DbContext
     {
-        public PlutoContext()
-            : base("name=PlutoContext")
+        public HCMContext()
+            : base("name=HCMContext")
         {
             this.Configuration.LazyLoadingEnabled = false;
         }

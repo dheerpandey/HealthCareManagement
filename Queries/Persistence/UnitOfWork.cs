@@ -6,9 +6,9 @@ namespace Queries.Persistence
 {
     public class UnitOfWork : IUnitOfWork
     {
-        private readonly PlutoContext _context;
+        private readonly HCMContext _context;
 
-        public UnitOfWork(PlutoContext context)
+        public UnitOfWork(HCMContext context)
         {
             _context = context;
             Courses = new CourseRepository(_context);

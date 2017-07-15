@@ -6,7 +6,7 @@ namespace Queries
     {
         static void Main(string[] args)
         {
-            using (var unitOfWork = new UnitOfWork(new PlutoContext()))
+            using (var unitOfWork = new UnitOfWork(new HCMContext()))
             {
                 // Example1
                 var course = unitOfWork.Courses.Get(1);
