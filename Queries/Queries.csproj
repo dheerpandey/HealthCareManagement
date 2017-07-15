@@ -49,6 +49,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Core\Domain\Author.cs" />
+    <Compile Include="Core\Domain\Billing.cs" />
+    <Compile Include="Core\Domain\Doctor.cs" />
+    <Compile Include="Core\Domain\DoctorAvaliablity.cs" />
     <Compile Include="Core\Domain\Patient.cs" />
     <Compile Include="Persistence\Repositories\AuthorRepository.cs" />
     <Compile Include="Core\Domain\Course.cs" />

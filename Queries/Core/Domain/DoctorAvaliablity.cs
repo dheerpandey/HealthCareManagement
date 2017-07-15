@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace Queries.Core.Domain
 {
-    public class Patient
+    public class DoctorAvaliablity
     {
-
+        public Doctor Doctor { get; set; }
+        public int MyProperty { get; set; }
     }
 }

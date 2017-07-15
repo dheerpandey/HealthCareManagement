@@ -22,3 +22,15 @@ C:\Users\admin\Documents\Visual Studio 2015\Projects\HealthCareManagement\Querie
 C:\Users\admin\Documents\Visual Studio 2015\Projects\HealthCareManagement\Queries\obj\Debug\Queries.csproj.GenerateResource.Cache
 C:\Users\admin\Documents\Visual Studio 2015\Projects\HealthCareManagement\Queries\obj\Debug\Queries.exe
 C:\Users\admin\Documents\Visual Studio 2015\Projects\HealthCareManagement\Queries\obj\Debug\Queries.pdb
+C:\Hackathon\HealthCareManagement\Queries\bin\Debug\Queries.exe.config
+C:\Hackathon\HealthCareManagement\Queries\bin\Debug\Queries.exe
+C:\Hackathon\HealthCareManagement\Queries\bin\Debug\Queries.pdb
+C:\Hackathon\HealthCareManagement\Queries\bin\Debug\EntityFramework.dll
+C:\Hackathon\HealthCareManagement\Queries\bin\Debug\EntityFramework.SqlServer.dll
+C:\Hackathon\HealthCareManagement\Queries\bin\Debug\EntityFramework.xml
+C:\Hackathon\HealthCareManagement\Queries\bin\Debug\EntityFramework.SqlServer.xml
+C:\Hackathon\HealthCareManagement\Queries\obj\Debug\Queries.csprojResolveAssemblyReference.cache
+C:\Hackathon\HealthCareManagement\Queries\obj\Debug\Queries.Migrations.InitialMigration.resources
+C:\Hackathon\HealthCareManagement\Queries\obj\Debug\Queries.csproj.GenerateResource.Cache
+C:\Hackathon\HealthCareManagement\Queries\obj\Debug\Queries.exe
+C:\Hackathon\HealthCareManagement\Queries\obj\Debug\Queries.pdb
