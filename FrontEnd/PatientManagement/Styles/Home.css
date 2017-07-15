@@ -1,0 +1,16 @@
+﻿body{
+    margin:0;
+    padding:0;
+    font-family:'Segoe UI';
+}
+.Container{
+    width:1200px;
+    margin:0 auto;
+}
+header{
+    height:100px;
+    background:#f0f0f0;
+}
+.SiteLogo {
+    background: url('../Images/Logo.png') no-repeat;
+}
